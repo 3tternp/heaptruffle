@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM node:16.20.1
+FROM node:16.20.2
 
 # Install required libraries and Google Chrome
 RUN apt-get update \
