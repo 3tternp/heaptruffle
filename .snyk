@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - heapsnapshot-parser > lodash:
+        patched: '2024-12-17T04:11:42.891Z'
+        id: 'npm:lodash:20180130'
+        path: heapsnapshot-parser > lodash
